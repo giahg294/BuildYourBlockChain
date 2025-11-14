@@ -150,6 +150,11 @@ Lancez deux nœuds et connectez-les. Ajoutez quelques valeurs. Lancez maintenant
 
 #### Écrire une **fonction** `sync` qui prend en paramètre une *socket*. Elle envoie une requête `keys` et ajoute les couples clé / valeur inconnues.
 
+##### Indice :
+```Javascript
+function sync (socket) { /* ... */ }
+```
+
 #### Modifier la commande `auth` et `addPeer` pour qu'à chaque nouvelle connexion entre serveur, la **fonction** `sync` soit appelée.
 
 ## Réseauter (5 min)
